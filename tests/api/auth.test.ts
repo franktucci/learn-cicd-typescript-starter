@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { getAPIKey } from "../../dist/api/auth"
+import { getAPIKey } from "../../src/api/auth";
 
 describe("get auth", () => {
   test("regular bearer token returns token", () => {
